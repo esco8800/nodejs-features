@@ -6,7 +6,8 @@
   "scripts": {
     "hello": "node index.js",
     "gzipReceive": "node stream/file/gzipReceive.js",
-    "gzipSend": "node stream/file/gzipSend.js stream/file/input/file.txt localhost"
+    "gzipSend": "node stream/file/gzipSend.js stream/file/input/file.txt localhost",
+    "readStdin": "node stream/read/readStdin.js"
   },
   "keywords": [],
   "author": "",
