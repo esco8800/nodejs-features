@@ -2,14 +2,19 @@
   "name": "nodejs-features",
   "version": "1.0.0",
   "description": "",
-
+  "main": "index.js",
   "scripts": {
     "hello": "node index.js",
     "gzipReceive": "node stream/file/gzipReceive.js",
     "gzipSend": "node stream/file/gzipSend.js stream/file/input/file.txt localhost",
-    "readStdin": "node stream/read/readStdin.js"
+    "readStdin": "node stream/read/readStdin.js",
+    "start": "tsc && node typeScript/dist/app.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.3"
+  }
 }

@@ -24,7 +24,8 @@ Thumbs.db
 *.map
 *.log
 
-file.txt
+stream/file/output/file.txt
+typeScript/dist
 
 
 
