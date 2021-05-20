@@ -8,7 +8,8 @@
     "gzipReceive": "node stream/file/gzipReceive.js",
     "gzipSend": "node stream/file/gzipSend.js stream/file/input/file.txt localhost",
     "readStdin": "node stream/read/readStdin.js",
-    "start": "tsc && node typeScript/dist/app.js"
+    "start": "tsc && node typeScript/dist/app.js",
+    "hard": "node dependencies/hard/app.js"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +17,13 @@
   "devDependencies": {
     "tslint": "^5.12.1",
     "typescript": "^3.3.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "errorhandler": "^1.5.1",
+    "express": "^4.17.1",
+    "level-sublevel": "^6.6.5",
+    "leveldown": "^6.0.0",
+    "levelup": "^5.0.0"
   }
 }
